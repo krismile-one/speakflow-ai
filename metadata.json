@@ -1,0 +1,8 @@
+{
+  "name": "SpeakFlow AI",
+  "description": "An intelligent English oral practice tool providing sentence-level feedback and word-level phonetic analysis.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": []
+}

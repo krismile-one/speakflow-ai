@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600;800&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import "tailwindcss";
+
+@plugin "tailwindcss-animate";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Libre Baskerville", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --radius-lg: 0.5rem;
+  --radius-md: 0.375rem;
+  --radius-sm: 0.25rem;
+
+  --color-background: #FDFCFB;
+  --color-foreground: #1A1A1A;
+
+  --color-primary: #4B5EAA;
+  --color-primary-foreground: #FFFFFF;
+
+  --color-secondary: #F5F4F0;
+  --color-secondary-foreground: #1A1A1A;
+
+  --color-muted: #F5F4F0;
+  --color-muted-foreground: #717171;
+
+  --color-accent: #4B5EAA;
+  --color-accent-foreground: #FFFFFF;
+
+  --color-destructive: #E11D48;
+  --color-destructive-foreground: #FFFFFF;
+
+  --color-border: #E5E5E1;
+  --color-input: #E5E5E1;
+  --color-ring: #4B5EAA;
+}
+
+@layer components {
+  .label-caps {
+    @apply text-[11px] uppercase tracking-[0.1em] font-semibold text-muted-foreground;
+  }
+  
+  .editorial-serif {
+    @apply font-serif;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
