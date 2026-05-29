@@ -9,14 +9,17 @@
 ## 产品截图
 
 ### 首页
-![alt text](870698773eb5c84ada5165dea2e161c3.png)
+<img width="933" height="791" alt="870698773eb5c84ada5165dea2e161c3" src="https://github.com/user-attachments/assets/4997bb84-8f6b-45fe-8a57-46af16f675c6" />
+
 
 ### 上传页面
-![alt text](c2f49b9e7e193023b91bef0976dba905.png)
+<img width="895" height="725" alt="c2f49b9e7e193023b91bef0976dba905" src="https://github.com/user-attachments/assets/e3fe00bc-ac78-459f-9cc9-ae09e76b67ab" />
+
 
 ### 分析结果
-![alt text](1bfbcc73e60406a6d836bc04e3d612d8.png)
-![alt text](abb9e6737a3e7df34ff6ac2cbe8195bf.png)
+<img width="1001" height="814" alt="1bfbcc73e60406a6d836bc04e3d612d8" src="https://github.com/user-attachments/assets/79f286c2-ee4d-4bf3-ac5e-78cdae86eb8b" />
+<img width="1070" height="810" alt="abb9e6737a3e7df34ff6ac2cbe8195bf" src="https://github.com/user-attachments/assets/c89a2e31-24f9-4d75-aa60-33417105dfef" />
+
 
 ---
 
